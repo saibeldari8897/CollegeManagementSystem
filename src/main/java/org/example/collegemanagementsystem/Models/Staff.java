@@ -23,5 +23,4 @@ public class Staff {
     @OneToOne(cascade = CascadeType.ALL)
     private Department department;
 
-
 }
