@@ -9,6 +9,8 @@ import lombok.*;
 @NoArgsConstructor
 public class StudentDto {
 
+    private int departmentId;
+
     private String studentName;
 
     private String address;

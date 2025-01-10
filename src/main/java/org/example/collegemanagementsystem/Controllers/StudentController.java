@@ -30,7 +30,7 @@ public class StudentController {
     }
 
 
-    @PostMapping("/student/add")
+    @PostMapping("/addStudent")
     public ResponseEntity<Student> addStudent(@RequestBody StudentDto studentDto) {
         Student newStudent = studentService.addStudent(studentDto);
         return ResponseEntity.ok(newStudent);

@@ -19,7 +19,7 @@ public class Department {
     @Column(nullable = false)
     private String departmentName;
 
-    @Column(nullable = false)
+    @Column(nullable = false,unique = true)
     private long departmentBlockNumber;
 
 }
